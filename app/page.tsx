@@ -1,10 +1,14 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import Link from "next/link";
+import Header from "../components/header";
 
 export default function Home() {
   return (
     <div className={styles.page}>
+      {/* component  */}
+
+      <Header />
       <main className={styles.main}>
         <Image
           className={styles.logo}
